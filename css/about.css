@@ -1,0 +1,25 @@
+.about__bg{
+  background-color: var(--dark-gray);
+}
+
+.about{
+  padding-top:4rem ;
+  padding-bottom:4rem ;
+}
+
+.about h2{
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.about p{
+  color: var(--light-gray);
+  font-weight: 300;
+  line-height: 1.5;
+  /* max-width: 46ch; */
+}
+
+.about div p:not(:last-child){
+  margin-bottom:1.5rem ;
+}
